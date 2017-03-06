@@ -1,0 +1,94 @@
+.dialog{
+    width: 400px;
+    background: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    line-height: 1.42857143;
+    overflow: hidden;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.dialog .dialog-header{
+    position: relative;
+    color: #fff;
+    background: #286090;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 6px 6px 0 0;
+}
+.dialog .dialog-header .iconfont{
+    font-size: 20px;
+}
+.dialog .dialog-title{
+    font-size: 18px;
+    padding: 6px 0 6px 8px;
+    font-weight: normal;
+    position: relative;
+}
+.dialog .dialog-header .close{
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    display: inline-block;
+    color: #ccc;
+}
+.dialog .dialog-header .close:hover{
+    color: #fff;
+}
+.dialog .dialog-body{
+    font-size: 14px;
+    color: #333;
+    padding: 15px;
+}
+.dialog .dialog-body .icon{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-right: 5%;
+    color: #cc1636;
+}
+.dialog .dialog-body .icon .iconfont{
+    font-size: 50px;
+}
+.dialog .dialog-body .dialog-content{
+    float: left;
+    width: 75%;
+}
+.dialog .dialog-footer{
+    padding: 6px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.dialog .dialog-footer .btn{
+    color: #fff;
+    background: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    padding: 5px 13px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.dialog .dialog-footer .btn:hover {
+    color: #fff;
+    background: #449d44;
+    border-color: #398439;
+}
